@@ -6,7 +6,7 @@
     <title>Guide web</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <h1>Hello world <span>!</span></h1>
 </body>
 <style>
     body {
@@ -28,5 +28,10 @@
         h1:hover{
             transform: scale(1.2);
         }
+
+        h1>span:nth-child(n):hover {
+            color: rgb(255, 230, 0);
+        }
+
 </style>
 </html>
